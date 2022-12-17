@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="main-page">
-      hello world
+      <h1>Dynify Loan Application</h1>
       <div className="main-title">
         <div
           onClick={() => {
