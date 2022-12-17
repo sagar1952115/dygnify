@@ -10,11 +10,6 @@ const BusinessDetails = ({
 }) => {
   const { businessName, businessEmail, businessAddress, businessMobile, gst } =
     state.businessData;
-  // const [businessName, setBusinessName] = useState("");
-  // const [businessAddress, setBusinessAddress] = useState("");
-  // const [gst, setGst] = useState("");
-  // const [businessMobile, setBusinessMobile] = useState("");
-  // const [businessEmail, setBusinessEmail] = useState("");
   const [businessError, setbusinessError] = useState("");
   const [addressError, setaddressError] = useState("");
   const [gstError, setgstError] = useState("");

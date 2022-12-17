@@ -13,12 +13,6 @@ const ApplicationDetails = ({
   setApplication,
 }) => {
   const { loanAmount, interest, tenure, panId } = state.applicationData;
-
-  //   const [loanAmount, setLoanAmount] = useState("");
-  //   const [interest, setInterest] = useState("");
-  //   const [tenure, setTenure] = useState("");
-  //   const [panId, setPanId] = useState("");
-
   const [amountError, setamountError] = useState("");
   const [interestError, setinterestError] = useState("");
   const [tenureError, settenureError] = useState("");

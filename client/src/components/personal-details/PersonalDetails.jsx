@@ -8,12 +8,7 @@ const PersonalDetails = ({
   setBusiness,
   handleState,
 }) => {
-  // const [firstName, setFirstName] = useState("");
-  // const [lastName, setLastName] = useState("");
-  // const [age, setAge] = useState("");
-  // const [mobile, setMobile] = useState("");
   const { firstName, lastName, age, mobile, email } = state.personalData;
-  // const [email, setEmail] = useState("");
   const [fnameError, setfnameError] = useState("");
   const [lnameError, setlnameError] = useState("");
   const [ageError, setageError] = useState("");
